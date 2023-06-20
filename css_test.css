@@ -1,7 +1,8 @@
 .navbar{
-    list-style-type: none;
-    margin: 0px;
-    padding: 2px;
+    /*list-style-type: none;*/
+    width: 100%;
+    margin: -10px;
+    padding: 0px;
     overflow: hidden;
     background-color: black;
     background-image: linear-gradient(to right, black , rgba(145, 145, 145, 0.66));
@@ -10,15 +11,23 @@
     font-size: 18px;
 }
 
+.navbar ul {
+    float: right;
+    margin-right: 170px;
+}
+
 .navbar li{
     display:inline-block;
     padding-top: 25px;
     padding-right: 25px;
 
 }
-.navbar ul {
-    float: right;
-    margin-right: 170px;
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding-right:10px;
+    /*margin-right: 20px;*/
+    text-align: center;
 }
 
 .navbar img{
@@ -27,24 +36,61 @@
     width: 220px;
     float: left;
 }
+/*.DropDownMenu{*/
+/*    margin-right: -90px;*/
+/*}*/
 
-.navbar li a{
-    text-decoration: none;
-    color: white;
-    padding-right: 30px;
-}
+
 .DropDownMenu .dropDownContent{
     display: none;
     position: absolute;
-    background-color: whitesmoke;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
+    background-color: #d7d7d7;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px #9cabc7;
+    margin-right: 50px;
+    border-radius: 10px;
 }
 
+.navbar .DropDownMenu .dropDownContent a{
+    display: block;
+    color: #000000;
+    padding: 12px 16px;
+    text-align: center;
+    border-radius: 10px;
 
+}
 #accountName{
-    padding-left: 65px;
+    margin-left: 45px;
+    color: limegreen;
+}
+#expandBtn{
+    vertical-align: bottom;
+    color: #2d89ff;
 }
 
+.navbar li a:hover {
+    color: #f0f50e;
+}
 
+.navbar li #accountName:hover {
+    color: #ffffff;
+}
+
+.DropDownMenu:hover .dropDownContent{
+    display: block;
+
+}
+
+.navbar .DropDownMenu .dropDownContent a:hover{
+    color: #ffda00;
+    /*background-color: #282828;*/
+    background-image: linear-gradient(to right, #079d02, rgba(61, 157, 89, 0.66));
+}
+
+#contactus{
+    color: red;
+}
+
+.navbar li #contactus:hover{
+    color: #ffffff;
+}
