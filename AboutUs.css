@@ -1,9 +1,9 @@
 /*----------------------------------------Navbar----------------------------------------------*/
-body{
-    background-image: url("src/circuit-wallpaper-2048x1536_26.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+/*body{*/
+/*    background-image: url("src/circuit-wallpaper-2048x1536_26.jpeg");*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
 .navbar{
     /*list-style-type: none;*/
     width: 100%;
@@ -99,58 +99,67 @@ body{
 .navbar li #contactus:hover{
     color: #ffffff;
 }
-#home{
-    color: #f0f50e;
+
+#AboutUs{
+    color:yellow;
 }
 /*----------------------------------------Navbar----------------------------------------------*/
 
-.CenterText{
+
+.toCenter{
     text-align: center;
-    color: white;
-    /*padding-top: 120px;*/
+}
+#kodaImageLogo{
+    margin-top: 190px;
+    height: 160px;
+    width: 460px;
 }
 
-#welcomingText{
+#AboutUsText{
+    margin-top: 75px;
     font-family: sans-serif;
-    font-size: xx-large;
-    padding-top: 230px;
-    padding-bottom: -15px;
-    /*color: #505050;*/
+    color: white;
 }
-#kodaText{
-    color: darkorange;
+#bgBlack{
+    /*width: 100%;*/
+    background-color: black;
+    margin-left: -80px;
+    margin-right: -8px;
+    margin-top: 10px;
+    padding-bottom: 250px;
+    height: 500px;
 }
-#homePageText{
-    /*color: #9cabc7;*/
+
+#groupPhoto{
+    display: block;
+    width: 50%;
+    margin-top: -190px;
+
+    /*height: 500px;*/
+    /*width:  700px;*/
+    /*margin-left: 560px;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*justify-content: center;*/
+    border-radius: 2%;
+    /*margin-right: 60px;*/
+}
+
+#paragraph{
     font-family: sans-serif;
     font-size: medium;
-    font-weight: bolder;
-    padding-bottom: 60px;
-}
-#contactUsBtn{
-    color: white;
-    text-decoration: none;
-    font-family: sans-serif;
-    border-style: solid;
-    padding: 12px 55px 12px 55px;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, rgba(225, 225, 225, 0.13), rgba(196, 196, 196, 0.13));
+    /*margin: 50px 530px 50px 530px;*/
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    justify-content: center;
+    line-height: 25px;
 }
 
-.btn{
-    transition: .3s ease;
-    /*margin: 0px 5px 0px 5px;*/
-    padding: 8px 12px;
-}
 
-#btn:hover{
-    -ms-transform: scale(0.90);
-    -webkit-transform: scale(0.90);
-    transform: scale(0.90);
-}
 
-#contactUsBtn:hover{
-    color: #e1e1e1;
-    background-image: linear-gradient(to right, rgba(225, 225, 225, 0.41), rgba(196, 196, 196, 0.51));
-}
+
+
+
 

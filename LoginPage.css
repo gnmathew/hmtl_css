@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, black , rgb(33, 32, 32));
+}
+
+#loginPageContainer{
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-radius: 5%;
+    background-color: #eeeded;
+    height: 320px;
+    width: 400px;
+
+}
+#imageContainer{
+    margin-top: 140px;
+}
+
+#SignUpBtn, #LoginBtn{
+    /*display: inline-block;*/
+    height: 40px;
+    width: 120px;
+    margin-top: 50px;
+    border-radius: 8px;
+    color: white;
+    border-style: hidden;
+    background-image: linear-gradient(to right, #061ef6, rgb(96, 238, 99));
+}
+.buttons{
+    display: inline-block;
+    transition: .3s ease;
+}
+.elements{
+    text-align: center;
+}
+#email, #pass{
+    height: 30px;
+    width: 235px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.buttons:hover {
+    -ms-transform: scale(0.90);
+    -webkit-transform: scale(0.90);
+    transform: scale(0.90);
+}
